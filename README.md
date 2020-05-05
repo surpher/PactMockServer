@@ -1,6 +1,6 @@
 # PactMockServer
 
-Used to deliver `PactMockServer` as a module via SPM to [PactSwift](https://github.com/surpher/pact-swift).
+Used to deliver `PactMockServer` as a module via SPM to [PactSwift](https://github.com/surpher/pact-swift) for macOS.
 
 ## Usage
 
@@ -14,10 +14,11 @@ To run your Pact tests, download [libpact_mock_server.a](Sources/lib) and add in
 
 In your project's root folder run:
 
-	swift build
-	swift test -Xlinker -L/ProjetTests/Resources/lib
+```bash
+swift build
+swift test -Xlinker -L/ProjetTests/Resources/lib
+```
 
+### Note
 
-### Example
-
-See [Pact-macOS-Example](https://github.com/surpher/pact-swift-examples/tree/master/Pact-macOS-Example)
+Binary in `/Sources/lib` contains slices for macOS only.
