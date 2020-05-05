@@ -20,4 +20,4 @@ In your project's root folder run:
 
 ### Example
 
-See [Pact-macOS-Example](https://github.com/surpher/pact-swift-examples/Pact-macOS-Example)
+See [Pact-macOS-Example](https://github.com/surpher/pact-swift-examples/tree/master/Pact-macOS-Example)
