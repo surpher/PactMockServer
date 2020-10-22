@@ -1,6 +1,3 @@
-#ifndef PactMockServer_h
-#define PactMockServer_h
-
 #include <stdarg.h>
 #include <stdbool.h>
 #include <stdint.h>
@@ -372,5 +369,3 @@ void with_request(InteractionHandle interaction, const char *method, const char 
  * | 3 | A mock server with the provided port was not found |
  */
 int32_t write_pact_file(int32_t mock_server_port, const char *directory);
-
-#endif /* PactMockServer_h */
