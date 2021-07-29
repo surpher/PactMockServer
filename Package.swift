@@ -17,7 +17,10 @@ let package = Package(
 	// MARK: - Products
 
 	products: [
-		.library(name: "PactMockServer", targets: ["PactMockServer"]),
+		.library(
+			name: "PactMockServer",
+			targets: ["PactMockServer"]
+		),
 	],
 
 	// MARK: - Dependencies
@@ -28,10 +31,14 @@ let package = Package(
 	// MARK: - Targets
 
 	targets: [
-		.target(name: "PactMockServer", path: "./Sources")
+		.target(
+			name: "PactMockServer",
+			path: "./Sources"
+		)
 	],
 
 	// MARK: - Other versions
-	
+
 	swiftLanguageVersions: [.v5]
+
 )

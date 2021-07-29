@@ -1,0 +1,7 @@
+//
+// THIS IS A BLANK FILE STANDING IN FOR libpact_ffi.a
+//
+// Due to the way SPM works, specifically when running in CLI, binaries must be
+// linked into the project as a package dependency.
+// This file is only used for proper linking.
+//
